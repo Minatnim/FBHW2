@@ -42,8 +42,6 @@
   color: #1877f2;
   font-size: 60px;
 }
-.containRight {
-}
 
 .loginForm {
   display: flex;
@@ -94,6 +92,4 @@
 }
 .detail {
   margin-top: 25px;
-}
-.footerClass {
 }
