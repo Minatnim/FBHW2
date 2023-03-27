@@ -16,12 +16,21 @@
   height: 80vh;
   align-items: center;
 }
+.containLeft {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  align-items: left;
+  margin-right: 80px;
+}
 @media (max-width: 600px) {
   .classMain {
     flex-direction: column;
   }
   .containLeft {
     align-items: center;
+    margin-right: 0;
+    width: 400px;
   }
   .description,
   .detail {
@@ -32,12 +41,7 @@
   color: black;
   font-size: 25px;
 }
-.containLeft {
-  display: flex;
-  flex-direction: column;
-  width: 380px;
-  align-items: left;
-}
+
 .title {
   color: #1877f2;
   font-size: 60px;
@@ -74,6 +78,7 @@
 }
 .forgetpassword {
   display: block;
+  text-decoration: none;
 }
 .divNewAcc {
   width: 100%;
